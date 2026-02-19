@@ -23,3 +23,46 @@ button {
   border: 0;
   cursor: pointer;
 }
+
+.header {
+  color: aliceblue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container {
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.header__btn {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 48px;
+}
+
+.header__btn span {
+  height: 2px;
+  background-color: #fff;
+}
+
+.header__btn span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: aliceblue;
+}
+
+.top {
+  background-image: url("/images/top-bj.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
